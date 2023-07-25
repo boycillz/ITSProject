@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.boycillz.slideapp2.app-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "com.boycillz.slideapp2.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.boycillz.slideapp2.app-mergeDebugResources-39:/layout/content_main.xml",
+        "source": "com.boycillz.slideapp2.app-main-42:/layout/content_main.xml"
+    }
+]
