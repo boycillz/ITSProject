@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GridView</string>
+    <string-array name="puzzle_words">
+        <item>APPLE</item>
+        <item>BANANA</item>
+        <item>CHERRY</item>
+        <item>DATES</item>
+        <item>EGGPLANT</item>
+        <item>FIG</item>
+    </string-array>
+</resources>

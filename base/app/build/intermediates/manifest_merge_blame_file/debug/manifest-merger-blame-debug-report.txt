@@ -1,0 +1,126 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.boycillz.basebase"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.boycillz.basebase.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.boycillz.basebase.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:5:5-37:19
+18        android:allowBackup="true"
+18-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:8:9-54
+23        android:icon="@mipmap/ic_launcher"
+23-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:9:9-43
+24        android:label="@string/app_name"
+24-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:10:9-41
+25        android:supportsRtl="true"
+25-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:11:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.Basebase" >
+27-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:12:9-46
+28        <activity
+28-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:14:9-16:40
+29            android:name="com.boycillz.basebase.ContactUs"
+29-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:15:13-38
+30            android:exported="false" />
+30-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:16:13-37
+31        <activity
+31-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:17:9-19:40
+32            android:name="com.boycillz.basebase.Terms"
+32-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:18:13-34
+33            android:exported="false" />
+33-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:19:13-37
+34        <activity
+34-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:20:9-22:40
+35            android:name="com.boycillz.basebase.Privacy"
+35-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:21:13-36
+36            android:exported="false" />
+36-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:22:13-37
+37        <activity
+37-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:23:9-25:40
+38            android:name="com.boycillz.basebase.Setting"
+38-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:24:13-36
+39            android:exported="false" />
+39-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:25:13-37
+40        <activity
+40-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:26:9-36:20
+41            android:name="com.boycillz.basebase.MainActivity"
+41-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:27:13-41
+42            android:exported="true"
+42-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:28:13-36
+43            android:label="@string/app_name"
+43-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:29:13-45
+44            android:theme="@style/Theme.Basebase.NoActionBar" >
+44-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:30:13-62
+45            <intent-filter>
+45-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:31:13-35:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:32:17-69
+46-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:32:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:34:17-77
+48-->E:\ITS-JMP-VSGA\base\app\src\main\AndroidManifest.xml:34:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+54            android:authorities="com.boycillz.basebase.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+62        </provider>
+63
+64        <uses-library
+64-->[androidx.window:window:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+65            android:name="androidx.window.extensions"
+65-->[androidx.window:window:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+66            android:required="false" />
+66-->[androidx.window:window:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+67        <uses-library
+67-->[androidx.window:window:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+68            android:name="androidx.window.sidecar"
+68-->[androidx.window:window:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+69            android:required="false" />
+69-->[androidx.window:window:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+70    </application>
+71
+72</manifest>
