@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/twotone_child_care_24" />
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_below="@id/imageViewLogo"
+        android:text="Selamat Datang, Username!"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewWelcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_button_rounded"
+        android:elevation="2dp" />
+
+    <!-- Tambahkan tampilan lainnya sesuai kebutuhan aplikasi Anda -->
+
+</RelativeLayout>

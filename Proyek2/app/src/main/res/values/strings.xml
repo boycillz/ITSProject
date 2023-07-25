@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Proyek2</string>
+    <string name="edit_username">edit username</string>
+    <string name="edit_password">edit password</string>
+</resources>
