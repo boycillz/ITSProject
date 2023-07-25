@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.boycillz.myapplication.app-mergeDebugResources-41:/layout/fragment_home.xml",
+        "source": "com.boycillz.myapplication.app-main-44:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.boycillz.myapplication.app-mergeDebugResources-41:/layout/fragment_slideshow.xml",
+        "source": "com.boycillz.myapplication.app-main-44:/layout/fragment_slideshow.xml"
+    },
+    {
+        "merged": "com.boycillz.myapplication.app-mergeDebugResources-41:/layout/app_bar_main.xml",
+        "source": "com.boycillz.myapplication.app-main-44:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.boycillz.myapplication.app-mergeDebugResources-41:/layout/fragment_gallery.xml",
+        "source": "com.boycillz.myapplication.app-main-44:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.boycillz.myapplication.app-mergeDebugResources-41:/layout/activity_main.xml",
+        "source": "com.boycillz.myapplication.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.boycillz.myapplication.app-mergeDebugResources-41:/layout/nav_header_main.xml",
+        "source": "com.boycillz.myapplication.app-main-44:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.boycillz.myapplication.app-mergeDebugResources-41:/layout/content_main.xml",
+        "source": "com.boycillz.myapplication.app-main-44:/layout/content_main.xml"
+    }
+]

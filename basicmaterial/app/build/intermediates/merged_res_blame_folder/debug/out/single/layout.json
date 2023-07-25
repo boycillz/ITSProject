@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.boycillz.basicmaterial.app-mergeDebugResources-39:/layout/fragment_first.xml",
+        "source": "com.boycillz.basicmaterial.app-main-42:/layout/fragment_first.xml"
+    },
+    {
+        "merged": "com.boycillz.basicmaterial.app-mergeDebugResources-39:/layout/fragment_second.xml",
+        "source": "com.boycillz.basicmaterial.app-main-42:/layout/fragment_second.xml"
+    },
+    {
+        "merged": "com.boycillz.basicmaterial.app-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "com.boycillz.basicmaterial.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.boycillz.basicmaterial.app-mergeDebugResources-39:/layout/content_main.xml",
+        "source": "com.boycillz.basicmaterial.app-main-42:/layout/content_main.xml"
+    }
+]

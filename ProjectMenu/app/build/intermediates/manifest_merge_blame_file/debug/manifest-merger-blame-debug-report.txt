@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.boycillz.projectmenu"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\36d2bebf921bf3e653b8992b98e79081\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.boycillz.projectmenu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\36d2bebf921bf3e653b8992b98e79081\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\36d2bebf921bf3e653b8992b98e79081\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.boycillz.projectmenu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\36d2bebf921bf3e653b8992b98e79081\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\36d2bebf921bf3e653b8992b98e79081\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:5:5-34:19
+18        android:allowBackup="true"
+18-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\36d2bebf921bf3e653b8992b98e79081\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+29-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:13:9-65
+30        <activity
+30-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:15:9-18:40
+31            android:name="com.boycillz.projectmenu.Menu3"
+31-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:16:13-34
+32            android:exported="false"
+32-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:18:13-37
+33            android:label="Latihan Menu 3" />
+33-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:17:13-43
+34        <activity
+34-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:19:9-22:40
+35            android:name="com.boycillz.projectmenu.Menu2"
+35-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:20:13-34
+36            android:exported="false"
+36-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:22:13-37
+37            android:label="Latihan Menu 2" />
+37-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:21:13-43
+38        <activity
+38-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:23:9-31:20
+39            android:name="com.boycillz.projectmenu.MainActivity"
+39-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:24:13-41
+40            android:exported="true" >
+40-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:25:13-36
+41            <intent-filter>
+41-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:26:13-30:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:27:17-69
+42-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:27:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:29:17-77
+44-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:29:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:33:9-72
+48            android:name="com.boycillz.projectmenu.Menu1"
+48-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:33:19-40
+49            android:label="Latiha Menu 1" />
+49-->E:\ITS-JMP-VSGA\its\ProjectMenu\app\src\main\AndroidManifest.xml:33:41-70
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\cb52533986600588c149468d62a185bb\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\cb52533986600588c149468d62a185bb\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+53            android:authorities="com.boycillz.projectmenu.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\cb52533986600588c149468d62a185bb\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\cb52533986600588c149468d62a185bb\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\cb52533986600588c149468d62a185bb\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\cb52533986600588c149468d62a185bb\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\cb52533986600588c149468d62a185bb\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\1af2e57e16c187592bfddc013f59347b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\1af2e57e16c187592bfddc013f59347b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\1af2e57e16c187592bfddc013f59347b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>

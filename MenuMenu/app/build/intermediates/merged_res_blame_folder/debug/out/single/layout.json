@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.boycillz.menumenu.app-mergeDebugResources-41:/layout/fragment_home.xml",
+        "source": "com.boycillz.menumenu.app-main-44:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.boycillz.menumenu.app-mergeDebugResources-41:/layout/fragment_notifications.xml",
+        "source": "com.boycillz.menumenu.app-main-44:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "com.boycillz.menumenu.app-mergeDebugResources-41:/layout/activity_main.xml",
+        "source": "com.boycillz.menumenu.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.boycillz.menumenu.app-mergeDebugResources-41:/layout/fragment_dashboard.xml",
+        "source": "com.boycillz.menumenu.app-main-44:/layout/fragment_dashboard.xml"
+    }
+]
